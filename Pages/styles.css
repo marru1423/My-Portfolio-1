@@ -141,7 +141,7 @@ body{
     height: 0;
     left: 0;
     bottom: 0;
-    background:  rgba(0, 0, 0, 0.5);
+    background:  rgba(0, 0, 0, 0.9);
     transition: all ease 0.8s;
     z-index: 1;
 }
@@ -150,7 +150,13 @@ body{
     z-index: -1;
 }
 .sec-style-cards:hover > h1{
-    color: #fff;
+    color: #d20b0b;
+}
+.sec-style-cards:hover > p{
+    color: #ffffff;
+}
+.sec-style-cards > h1,p{
+    padding: 0.5rem;
 }
 /* Sec Testimonail */
 .testi-service-container{
@@ -190,4 +196,34 @@ body{
 }
 .sec-testi-cards h1{
     padding: 0.5rem;
+}
+/* footer Content */
+.footer-container{
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 0.5rem;
+}
+.footer-sytle img{
+    width: 5rem;
+    background-color: #ff0606;
+    border-radius: 50%;
+}
+.footer-sytle{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-sytle li{
+    display: inline-block;
+    padding: 2rem;
+    color: #fff;
+}
+.footer-sytle a{
+    color: aqua;
+}
+.footer-top-design{
+    padding: 6rem;
+    background: #fff;
+}
+.footer-top-style h1{
+    padding: 1rem 0;
 }
