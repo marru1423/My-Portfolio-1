@@ -204,7 +204,7 @@ body{
 }
 .footer-sytle img{
     width: 5rem;
-    background-color: #ff0606;
+    background-color: #ff0000;
     border-radius: 50%;
 }
 .footer-sytle{
@@ -214,7 +214,7 @@ body{
 }
 .footer-sytle li{
     display: inline-block;
-    padding: 2rem;
+    padding: 1.5rem;
     color: #fff;
 }
 .footer-sytle a{
@@ -225,5 +225,5 @@ body{
     background: #fff;
 }
 .footer-top-style h1{
-    padding: 1rem 0;
+    padding: 1rem;
 }

@@ -114,6 +114,8 @@ body{
     text-align: center;
 }
 .shape{
+    background-color: #ff0000;
+    padding: 0.5rem;
     border-radius: 100%;
     animation: anim;
     transition: all 5s ease-in-out;
@@ -129,11 +131,19 @@ body{
 .sec-wrapper a{
     color: #ffffff;
     font-size: 3rem;
-
+}
+#social{
+    padding-top: 2rem;
+    padding: 2rem;
+}
+#social a{
+    margin-left: 0.5rem;
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+    background: rgba(255, 253, 253, 0.8);
 }
 .sec-wrapper p{
-    color: #000;
-    font-weight: 800;
+    color: #fffdfd;
     padding: 2rem;
 }
 .sec-wrapper a span{
