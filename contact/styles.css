@@ -221,7 +221,7 @@ body{
     color: aqua;
 }
 .footer-top-design{
-    padding: 6rem;
+    padding: 2rem;
     background: #fff;
 }
 .footer-top-style h1{
@@ -289,5 +289,8 @@ body{
         display: flex;
         justify-content: space-between;
         align-items: center;
+    }
+    .footer-top-design{
+        padding: 6rem;
     }
 }
