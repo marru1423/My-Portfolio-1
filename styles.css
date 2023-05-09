@@ -55,8 +55,8 @@ body{
     background-color: rgba(1, 1, 1, 0.5);
 }
 .searchbar-header::placeholder{
-        color: black;
-        padding: 0.2rem;
+    color: black;
+    padding: 0.2rem;
 }
 .head-fab-style{
     position: absolute;
