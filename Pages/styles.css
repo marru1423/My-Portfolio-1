@@ -22,7 +22,7 @@ body{
     padding: 2rem 6rem;
     background-color: rgb(255, 253, 253);
     width: 100%;
-    position: fixed;
+    position: absolute;
     text-align: center;
     z-index: 1;
     top: 0;
@@ -59,7 +59,7 @@ body{
     padding: 0.2rem;
 }
 .head-fab-style{
-    position: fixed;
+    position: absolute;
     display: flex;
     font-size: 2rem;
     z-index: 1;
