@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -225,6 +226,13 @@ body{
 }
 .footer-top-style h1{
     padding: 1rem;
+}
+.scrll-btn{
+    position: fixed;
+    border-style: solid;
+    z-index: 0;
+    bottom: 12%;
+    left: 2%;
 }
 /* contact form */
 .Contact-container{
