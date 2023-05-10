@@ -122,7 +122,6 @@ body{
     animation: anim;
     transition: all 5s ease-in-out;
     height: 22rem;
-    z-index: 1;
 }
 .sec-wrapper h1{
     font-size: 3rem;
@@ -168,14 +167,13 @@ body{
     background-color: rgba(213, 10, 10, 0.5);
     transform: skewY(-22deg);
     top: 30%;
-    z-index: 0;
     
 }
 .shape:hover{
     transform: rotate(360deg);
 }
 .sec-wrapper span:hover{
-    color: chartreuse;
+    color: rgb(247, 24, 3);
 
 }
 /* sec container */
