@@ -6,7 +6,6 @@
 }
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: rgba(0, 0, 0, 0.9);
 }
 .hidden{
     display: none;
@@ -97,11 +96,13 @@ body{
         margin-left: 7rem;
     }
     .sec-1-container{
+        width: 100%;
         padding: 0;
         margin: 0;
         position: absolute;
         display: flex;
         align-items: center;
+        background: rgba(0, 0, 0, 0.9);
     }
     .sec-wrapper .shape{
         width: 100%;
@@ -113,6 +114,7 @@ body{
 .sec-wrapper{
     padding-top: 7rem;
     text-align: center;
+    z-index: 1;
 }
 .shape{
     background-color: #ff0000;
@@ -161,7 +163,7 @@ body{
     /* Create diagonal sides */
     transform: skewY(-22deg);
     /* Displayed under the main content */
-    z-index: -1;
+    z-index: 0;
     top: 30%;
 }
 .shape:hover{
