@@ -259,7 +259,7 @@ body{
 }
 .sec-testi-style{
     width: 100%;
-    background:  #fff;
+    border: 1px solid rgba(1, 1, 1, 0.3);
     margin: 1rem;
     overflow: hidden;
     border-radius: 1rem;
