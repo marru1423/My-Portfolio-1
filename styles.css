@@ -6,6 +6,7 @@
 }
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: rgba(0,0,0, 0.2);
 }
 .hidden{
     display: none;
@@ -262,11 +263,12 @@ body{
 }
 .sec-testi-style{
     width: 100%;
-    border: 1px solid #000000;
+    /* border: 1px solid #000000; */
     margin: 1rem;
     overflow: hidden;
     border-radius: 1rem;
     padding: 2rem 0;
+    background: rgb(255, 255, 255);
 }
 .sec-testi-cards{
     height: 22rem;
