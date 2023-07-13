@@ -63,10 +63,17 @@ body{
     border-radius: 2rem;
     width: 100%;
     background-color: rgba(1, 1, 1, 0.5);
+    position: relative;
 }
 .searchbar-header::placeholder{
     color: black;
     padding: 0.2rem;
+}
+.head-style i{
+    position: absolute;
+    right: 6.5rem;
+    top: 25.7rem;
+
 }
 .head-fab-style{
     position: fixed;
@@ -117,6 +124,9 @@ body{
     .sec-wrapper .shape{
         width: 100%;
         height: 100%;
+    }
+    .head-style i{
+        top: 2.7rem;
     }
 }
 /* Section */
