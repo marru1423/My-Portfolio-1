@@ -8,6 +8,15 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background: rgba(0,0,0, 0.2);
 }
+.ssss{
+    color: #3a02d4;
+    visibility: visible;
+}
+.scrlups{
+    color: #9ecf0a;
+    background-color: #d20b0b;
+    visibility: visible;
+}
 .hidden{
     display: none;
 }
@@ -317,7 +326,6 @@ body{
 }
 .scrll-btn{
     position: fixed;
-    border-style: solid;
     z-index: 0;
     bottom: 12%;
     left: 2%;

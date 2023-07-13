@@ -17,5 +17,14 @@ function toggleNav(elementID) {
       element.classList.remove('block')
       return "false"
     }
-    console.log(toggleNav)
-    
+    console.log('Hello World')
+
+      const scr = document.getElementById('scrl')
+
+    function myScrlup() {
+      scr.classList.add('scrlups')
+    }
+    function myScrlup() {
+      scr.classList.add('ssss')
+    }
+  
