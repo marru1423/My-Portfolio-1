@@ -73,7 +73,12 @@ body{
     position: absolute;
     right: 6.5rem;
     top: 25.7rem;
+    color: #FDBD01;
+    transition: all ease 0.5s;
 
+}
+.head-style i:hover {
+    color: #000;
 }
 .head-fab-style{
     position: fixed;
