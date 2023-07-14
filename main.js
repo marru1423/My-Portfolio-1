@@ -35,3 +35,4 @@ function toggleNav(elementID) {
       let url = 'https://www.google.com/search?q='+searchBox.value;
         window.open(url, '_blank')
     }
+    console.log(searchBtn)
