@@ -48,8 +48,8 @@ body{
     border-radius: 2rem;
 }
 .head-style li:hover{
-    color: #f00808;
-    text-decoration: line-through;
+    color: #FDBD01;
+    text-decoration: line-through #000000;
 }
 .head-style h1 {
     font-size: 3rem;
@@ -58,6 +58,27 @@ body{
 .head-style span{
     color: #cf0a0a;
 }
+/* sear result */
+.search-result{
+    position: absolute;
+    right: 6.3rem;
+    top: 4.1rem;
+    padding: 2rem 4rem;
+    border-radius: 0.5rem;
+}
+.search-result li{
+    font-size: 1rem;
+}
+.search-result:hover li{
+    text-decoration: none;
+    border-radius: 0;
+    color: #000;
+    background-color: rgba(0,0,0, 0.2);
+}
+.search-result ul{
+    display: block;
+}
+/* end */
 .searchbar-header{
     padding: 0.4rem;
     border-radius: 2rem;
@@ -198,7 +219,7 @@ body{
     transform: rotate(360deg);
 }
 .sec-wrapper span:hover{
-    color: rgb(247, 24, 3);
+    color: #FDBD01;
 
 }
 /* sec container */

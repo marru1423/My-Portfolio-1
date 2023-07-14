@@ -27,4 +27,11 @@ function toggleNav(elementID) {
     function myScrlup() {
       scr.classList.add('ssss')
     }
-  
+
+    let searchBox = document.querySelector('box-search');
+    let searchBtn = document.querySelector('.search-fab');
+
+      searchBtn.onclik = function(){
+      let url = 'https://www.google.com/search?q='+searchBox.value;
+        window.open(url, '_blank')
+    }
