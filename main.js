@@ -29,11 +29,11 @@ function toggleNav(elementID) {
     }
 
     let searchBox = document.querySelector('#box-search');
-console.log(searchBox)
-let searchBtn = document.querySelector('.search-fab');
-console.log(searchBtn)
+    console.log(searchBox)
+    let searchBtn = document.querySelector('.search-fab');
+    console.log(searchBtn)
 
-searchBtn.onclick = function () {
+    searchBtn.onclick = function () {
     const url = `https://www.google.com/search?q=${searchBox.value}`;
     window.open(url, '_blank')
 }
