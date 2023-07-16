@@ -654,10 +654,9 @@ textarea {
     transition: 0.7s;
     box-shadow: 0.4rem 0.4rem 0.7rem rgb(255, 253, 253, 0.9);
       /* adjust the below to control the 3D effect */
-  --x: 20px;
-  --y: 20px;
-  transform: perspective(1000px) rotateX(var(--_a,20deg));
-
+  --x: 2rem;
+  --y: 2rem;
+  transform: perspective(1000px) rotateX(var(--_a,30deg));
 }
 .Phones-dropdown img:hover{
     transform: scale(2);
