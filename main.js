@@ -28,25 +28,36 @@ function myScrlup() {
   scr.classList.add('ssss')
 }
 
-let searchBox = document.querySelector('#box-search');
-console.log(searchBox)
-let searchBtn = document.querySelector('.search-fab');
-console.log(searchBtn)
+let dropDown = document.getElementById('phones-d')
+let flexes = document.getElementById('flexes')
 
-searchBtn.onclick = function () {
-  const url = `https://www.google.com/search?q=${searchBox.value}`;
-  window.open(url, '_blank')
+function oneClick() {
+  if (dropDown.classList.contains('animoff')) {
+    dropDown.classList.add('anim')
+    dropDown.classList.remove('animoff')
+    flexes.classList.add('flex')
+  } else {
+    dropDown.classList.add('animoff')
+    dropDown.classList.remove('anim')
+    flexes.classList.remove('flex')
+  }
 }
+console.log(dropDown)
 
-// let showClick = document.getElementById('buttons')
+let pads = document.getElementById('imgs')
+let textSettings = document.getElementById('text-show')
 
-// function openClicks() {
-//   if (showClick.classList.contains('animoff')) {
-//     showClick.classList.add('anim')
-//     showClick.classList.remove('animoff')
-//   } else {
-//     showClick.classList.add('animoff')
-//     showClick.classList.remove('anim')
-//   }
-// }
-// console.log(showClick)
+function pictShows() {
+  if (pads.classList.contains('pics-hide')) {
+    pads.classList.add('pics-show')
+    pads.classList.remove('pics-hide')
+    flexes.classList.add('flex')
+    textSettings.classList.add('text-show')
+  } else {
+    pads.classList.add('pics-hide')
+    pads.classList.remove('pics-show')
+    flexes.classList.remove('flex')
+    textSettings.classList.remove('text-show')
+  }
+}
+console.log(pads)
