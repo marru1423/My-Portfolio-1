@@ -37,3 +37,8 @@ function toggleNav(elementID) {
     const url = `https://www.google.com/search?q=${searchBox.value}`;
     window.open(url, '_blank')
 }
+
+// const Name = "marru";
+// const Age = 28;
+// let String = `My name ${Name} And my Age ${Age}`;
+// console.log(String);
