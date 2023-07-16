@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,52 +8,68 @@
     <link rel="stylesheet" href="styles.css">
     <script src="main.js" defer></script>
     <link rel="stylesheet" href="https://unpkg.com/modern-normalize@1.1.0/modern-normalize.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>My Portfolio</title>
 </head>
+
 <body>
     <main>
+
         <head>
             <div class="head-container">
-                    <nav class="head-style hidden" id="myHeader" data-shown="false">
-                        <div class="content-wrapper-logo">
-                            <h1>J<span>M</span>S</h1>
-                        </div>
-                        <ul>
-                            <a href="/My-Portfolio-1/index.html"><li>Home</li></a>
-                            <a href="/My-Portfolio-1/service/index.html"><li>Service</li></a>
-                            <a href="/My-Portfolio-1/contact/index.html"><li>Contact</li></a> 
-                            <a href="/My-Portfolio-1/about/index.html"><li>About</li></a>
-                        </ul>
-                        <div class="head-search">
-                            <form action="" class="search-bar">
-                                <input id="box-search" class="searchbar-header" type="text" placeholder="Search Here.." required value="">
-                                <i class="fa fa-search"></i>
-                            </form>
-                        </div>
-                        <div class="search-result">
-                        </div>
-                    </nav>
-                    <div class="head-fab-style">
-                        <button class="head-btn" onclick="toggleNav('myHeader')">
-                            <i class="fa-solid fa-bars"></i>
-                        </button>
+                <nav class="head-style hidden" id="myHeader" data-shown="false">
+                    <div class="content-wrapper-logo">
+                        <h1>J<span>M</span>S</h1>
                     </div>
+                    <ul>
+                        <a href="/My-Portfolio-1/index.html">
+                            <li>Home</li>
+                        </a>
+                        <a href="/My-Portfolio-1/service/index.html">
+                            <li>Service</li>
+                        </a>
+                        <a href="/My-Portfolio-1/contact/index.html">
+                            <li>Contact</li>
+                        </a>
+                        <a href="/My-Portfolio-1/about/index.html">
+                            <li>About</li>
+                        </a>
+                    </ul>
+                    <div class="head-search">
+                        <form action="" class="search-bar">
+                            <input id="box-search" class="searchbar-header" type="text" placeholder="Search Here.."
+                                required value="">
+                            <i class="fa fa-search"></i>
+                        </form>
+                    </div>
+                    <div class="search-result">
+                    </div>
+                </nav>
+                <div class="head-fab-style">
+                    <button class="head-btn" onclick="toggleNav('myHeader')">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                </div>
             </div>
         </head>
         <section class="seaction-1">
             <div class="sec-1-container">
                 <div class="sec-wrapper">
                     <h1><span>I'M</span> Jhonn <span>Marru</span></h1>
-                    <p>This is my official Portfolio website to showcase my 
+                    <p>This is my official Portfolio website to showcase my
                         all works related to <br> web development and ui designs. </p>
-                    <h1>Resume :<a href="https://i.pinimg.com/originals/54/57/d7/5457d73906a68ed81341d21593228870.jpg" target="_blank"><span><i class="fa fa-download" aria-hidden="true"></span></i></a></h1>
+                    <h1>Resume :<a href="https://i.pinimg.com/originals/54/57/d7/5457d73906a68ed81341d21593228870.jpg"
+                            target="_blank"><span><i class="fa fa-download" aria-hidden="true"></span></i></a></h1>
 
                     <div id="social">
-                        <a href="https://www.youtube.com/@Azmalngpinas" target="_blank"><i class="fab fa-youtube"></i></a>
-                        <a href="https://www.facebook.com/Jhonnmarru" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.youtube.com/@Azmalngpinas" target="_blank"><i
+                                class="fab fa-youtube"></i></a>
+                        <a href="https://www.facebook.com/Jhonnmarru" target="_blank"><i
+                                class="fab fa-facebook"></i></a>
                         <a href="#"><i class="fab fa-twitter"></i></a>
-                     </div>
+                    </div>
 
                 </div>
                 <div class="sec-wrapper">
@@ -63,6 +80,31 @@
 
             </div>
         </section>
+        <section class="hero-section-two">
+            <div class="sidebar-menu">
+                <h1>What is Topic ?</h1>
+                <div class="dropdown">
+                    <p onclick="openClicks()">phone</p>
+                </div>
+                <div class="dropdown">
+                    <p>Computer</p>
+                </div>
+
+                <div class="dropdown">
+                    <p>Networking</p>
+                </div>
+
+                <div class="dropdown">
+                    <p>trending</p>
+                </div>
+            </div>
+            <div class="dropdown-shwoing">
+                <!-- <div class="phone">
+                    <p id="buttons" class="animoff">Hello world</p>
+                </div> -->
+            </div>
+        </section>
     </main>
 </body>
-</html> 
+
+</html>
