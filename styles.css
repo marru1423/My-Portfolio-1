@@ -59,7 +59,9 @@ a {
 
 .head-style li:hover {
     color: #FDBD01;
-    text-decoration: line-through #000000;
+    animation: shake 0.7s;
+    animation-iteration-count: 0.5s;
+
 }
 
 .head-style h1 {
@@ -583,20 +585,21 @@ textarea {
 }
 .Phones-dropdown p{
     position: absolute;
-    background-color: #ffffff;
+    background-color: #fff7f7;
     transition: 0.8s;
     top: 26%;
     left: 12%;
     overflow: hidden;
     border-radius: 1rem;
-    box-shadow: 0.2rem 0.3rem rgba(116, 102, 102, 0.8);
+    box-shadow: 0.5rem 0.5rem 0.6rem rgba(105, 88, 88, 0.3);
     z-index: 1;
 }
 .Phones-dropdown p:hover{
-        background-color: rgb(229, 96, 96);
-        box-shadow: 0.2rem 0.3rem rgba(227, 183, 7, 0.8);
-        color: #fbfbfb;
+        background-color: rgba(170, 147, 147, 0.3);
+        color: #fff;
         padding: 2rem;
+        animation: shake 0.5s;
+        animation-iteration-count: 0.5s;
 }
 /* text for transistio */
 .text-settings{
@@ -634,7 +637,7 @@ textarea {
 .pics-show{
     height: 40%;
     width: 100%;
-    opacity: 0.9;
+    opacity: 1;
 }
 .pics-hide{
     height: 0;
@@ -650,12 +653,18 @@ textarea {
     border-radius: 1rem;
     transition: 0.7s;
     box-shadow: 0.4rem 0.4rem 0.7rem rgb(255, 253, 253, 0.9);
+      /* adjust the below to control the 3D effect */
+  --x: 20px;
+  --y: 20px;
+  transform: perspective(1000px) rotateX(var(--_a,20deg));
+
 }
 .Phones-dropdown img:hover{
     transform: scale(2);
     opacity: 1;
     animation: shake 0.5s;
     animation-iteration-count: 0.5s;
+    filter: i;
 
 }
 @keyframes shake{
