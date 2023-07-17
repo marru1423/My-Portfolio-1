@@ -249,6 +249,8 @@ a {
 .sec-wrapper p {
     color: #fffdfd;
     padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0.1rem 0.1rem 0.4rem 0.3rem rgb(255, 253, 253, 0.4);
 }
 
 .sec-wrapper a span {
@@ -262,7 +264,14 @@ a {
     margin: 0;
     background: rgba(0, 0, 0, 0.9);
     z-index: -1;
-
+}
+.sec-wrapper p:hover{
+    background-color: rgba(255, 254, 254, 0.3);
+    color: #000000;
+    animation: shake 0.5s;
+    animation-iteration-count: 0.5s;
+    text-shadow: 0.5rem 0.5rem 0.3rem #ffffff;
+    box-shadow: 0.1rem 0.1rem 0.3rem 0.3rem rgba(0, 0, 0, 0.8);
 }
 
 .sec-1-container::after {
