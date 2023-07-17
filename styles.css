@@ -172,6 +172,18 @@ a {
         margin-top: 10rem;
         margin-left: 7rem;
     }
+    #sec-par-properties{
+        width: 100%;
+        margin: 0;
+    }
+    #sec-par-properties:hover{
+        background-color: rgba(255, 254, 254, 0.3);
+        color: #000000;
+        animation: shake 0.5s;
+        animation-iteration-count: 0.5s;
+        text-shadow: 0.5rem 0.5rem 0.3rem #ffffff;
+        box-shadow: 0.1rem 0.1rem 0.3rem 0.3rem rgba(0, 0, 0, 0.8);
+    }
 
     .sec-1-container {
         width: 100%;
@@ -221,6 +233,7 @@ a {
     color: #b77474;
     text-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.9);
     transition: 0.4s;
+    margin: 0.5rem;
 
 }
 
@@ -251,6 +264,8 @@ a {
     padding: 2rem;
     border-radius: 1rem;
     box-shadow: 0.1rem 0.1rem 0.4rem 0.3rem rgb(255, 253, 253, 0.4);
+    width: 60%;
+    margin-left: 20%;
 }
 
 .sec-wrapper a span {
@@ -271,7 +286,7 @@ a {
     animation: shake 0.5s;
     animation-iteration-count: 0.5s;
     text-shadow: 0.5rem 0.5rem 0.3rem #ffffff;
-    box-shadow: 0.1rem 0.1rem 0.3rem 0.3rem rgba(0, 0, 0, 0.8);
+    box-shadow: 0.1rem 0.1rem 0.3rem 0.3rem rgba(255, 255, 255, 0.9);
 }
 
 .sec-1-container::after {
@@ -529,7 +544,6 @@ textarea {
     .Sec-wrapper {
         width: 33.33%;
     }
-
     .contact-style {
         width: 30%;
     }
