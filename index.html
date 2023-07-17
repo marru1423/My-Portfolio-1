@@ -14,6 +14,8 @@
     <title>My Portfolio</title>
 </head>
 
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v17.0&appId=359267668660429&autoLogAppEvents=1" nonce="EW3U5yCi"></script>
 <body>
     <main>
 
@@ -75,27 +77,31 @@
                 <div class="sec-wrapper">
                     <div class="sec-1-images">
                         <img src="images/Untitled design (1).png" class="shape">
+                        <!-- <div class="dragon-cards">
+                            <img id="dragon-cards-style" src="https://i.pinimg.com/564x/b8/5c/7f/b85c7f71c54913df435970b28aa50c23.jpg" alt="">
+                        </div> -->
                     </div>
                 </div>
-
-            </div>
         </section>
         <section class="hero-section-two">
-            <div class="sidebar-menu">
+            <div class="sidebar-menu" id="side-tab">
                 <h1>What is Topic ?</h1>
                 <div class="dropdown" id="flexes">
-                    <button type="button" id="btn-dropdown" onclick="oneClick()">Phone</button>
-                </div>
-                <div class="dropdown" id="flexes">
-                    <button type="button" id="btn-dropdown" onclick="pictShows()">News</button>
-                </div>
+                    <div class="btn-controll">
+                        <p id="btn-phones" onclick="oneClick()">Phone</p>
+                    </div>
 
-                <div class="dropdown" id="flexes">
-                    <button type="button" id="btn-dropdown" onclick="">Trends</button>
-                </div>
+                    <div class="btn-controll">
+                        <p id="btn-Picture" onclick="pictShows()">News</p>
+                    </div>
 
-                <div class="dropdown">
-                    <button type="button" id="btn-dropdown" onclick="">404 </button>
+                    <div class="btn-controll">
+                        <p id="btn-dropdown" onclick="onsClick()">Treding</p>
+                    </div>
+
+                    <div class="btn-controll">
+                        <p id="btn-dropdown" onclick="warNing()">404</p>
+                    </div>
                 </div>
             </div>
 
@@ -108,10 +114,17 @@
                     Portfolio</span>
                 <img src="https://i.pinimg.com/564x/b9/49/ae/b949ae1a6755f5a774fe13f3220281dd.jpg" alt="" id="imgs"
                     class="pics-hide">
-
             </div>
         </section>
+        <!-- <section class="hero-socmed">
+            <div class="soc-med-style">
+                <div class="fb-page"
+                data-href="https://www.facebook.com/Vindictass" 
+                data-width="300"
+                data-hide-cover="false"
+                data-show-facepile="true"></div>
+            </div>
+        </section> -->
     </main>
 </body>
-
 </html>
