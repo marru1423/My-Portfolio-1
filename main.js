@@ -46,6 +46,8 @@ console.log(dropDown)
 
 let pads = document.getElementById('imgs')
 let textSettings = document.getElementById('text-show')
+let myName = 'Jhonn Marru Sentoy'
+let myAge = 28
 
 function pictShows() {
   if (pads.classList.contains('pics-hide')) {
@@ -53,6 +55,7 @@ function pictShows() {
     pads.classList.remove('pics-hide')
     flexes.classList.add('flex')
     textSettings.classList.add('text-show')
+    console.warn(`My Name ${myName} My Age ${myAge}`);
   } else {
     pads.classList.add('pics-hide')
     pads.classList.remove('pics-show')
@@ -61,3 +64,5 @@ function pictShows() {
   }
 }
 console.log(pads)
+
+
