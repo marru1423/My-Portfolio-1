@@ -55,15 +55,13 @@ a {
     font-size: 1.5rem;
     font-weight: 900;
     color: black;
-    transition: all 0.6s ease-in-out;
+    transition: all 0.4s ease-in-out;
     border-radius: 2rem;
 }
 
 .head-style li:hover {
     color: #FDBD01;
-    animation: shake 0.7s;
-    animation-iteration-count: 0.5s;
-
+    text-decoration: line-through;
 }
 
 .head-style h1 {
