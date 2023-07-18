@@ -155,8 +155,6 @@ a {
 @media(min-width: 1280px) {
     .head-style {
         display: flex;
-        /* background-color: transparent; */
-        position: sticky;
     }
 
     .head-fab-style {
