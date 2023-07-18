@@ -526,7 +526,7 @@ input[type=email],
 textarea {
     padding: 0.7rem;
     width: 100%;
-    background: rgba(133, 47, 47, 0.8);
+    background: rgba(250, 248, 248, 0.8);
 }
 
 .contact-react-style {
