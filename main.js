@@ -1,21 +1,15 @@
 
 let closeAllApps = document.getElementById('Homes')
 let services = document.getElementById('Services')
-const openNav = document.getElementById('myHeader')
+let openNav = document.getElementById('myHeader')
 
-function toggleNav(){
-  if(openNav.classList.contains('hidden')){
+function toggleNav() {
+  if (openNav.classList.contains('hidden')) {
     openNav.classList.add('block')
     openNav.classList.remove('hidden')
-    
-    services.classList.add('block')
-    services.classList.add('hidden')
-  }else{
+  } else {
     openNav.classList.add('hidden')
     openNav.classList.remove('block')
-
-    services.classList.add('hidden')
-    services.classList.add('block')
   }
 }
 console.log(openNav)
@@ -76,7 +70,7 @@ function pictShows() {
     console.warn(`My Name ${myName} My Age ${myAge}`);
 
     ShowsTheTab.classList.add('flexon')
-    ShowsTheTab.classList.remove('flex')
+    ShowsTheTab.classList.remove('flexoff')
 
     phonesBtn.classList.add('scales')
 
@@ -92,7 +86,7 @@ function pictShows() {
 
     ShowsTheTab.classList.add('flexoff')
     ShowsTheTab.classList.remove('flexon')
-    
+
     phonesBtn.classList.remove('scales')
 
   }
