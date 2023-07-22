@@ -1,6 +1,3 @@
-
-let closeAllApps = document.getElementById('Homes')
-let services = document.getElementById('Services')
 let openNav = document.getElementById('myHeader')
 
 function toggleNav() {
@@ -13,7 +10,7 @@ function toggleNav() {
   }
 }
 console.log(openNav)
-console.log(services)
+
 
 const scr = document.getElementById('scrl')
 
