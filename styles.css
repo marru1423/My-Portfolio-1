@@ -193,7 +193,6 @@ a {
         width: 100%;
         padding: 0;
         margin: 0;
-        position: absolute;
         display: flex;
         align-items: center;
         background: rgba(255, 255, 255, 0.9);
@@ -282,8 +281,9 @@ a {
 .sec-1-container {
     padding: 0;
     margin: 0;
-    background: rgba(0, 0, 0, 0.9);
+    background: rgba(38, 34, 34, 0.9);
     z-index: -1;
+
 }
 
 .sec-wrapper p:hover {
@@ -771,7 +771,6 @@ textarea {
 
 @media(min-width: 1280px) {
     .sidebar-menu {
-        z-index: 1;
         top: 20%;
         left: 1%;
         background: rgba(164, 4, 4, 0.3);
