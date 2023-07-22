@@ -13,12 +13,13 @@ function toggleNav(){
   }else{
     openNav.classList.add('hidden')
     openNav.classList.remove('block')
-    
+
     services.classList.add('hidden')
     services.classList.add('block')
   }
 }
 console.log(openNav)
+console.log(services)
 
 const scr = document.getElementById('scrl')
 
