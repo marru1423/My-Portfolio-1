@@ -48,7 +48,7 @@ body {
     z-index: 1;
 }
 
-.head-style li,
+.head-style ul li,
 a {
     padding: 0.5rem;
     list-style: none;
@@ -59,8 +59,9 @@ a {
     color: #000;
     outline: none;
 }
-.head-style li:hover, .head-style li:focus{
+.head-style a:hover, .head-style a:focus-visible{
     color: #FDBD01;
+    text-decoration: line-through;
 }
 .head-style h1 {
     font-size: 3rem;
