@@ -20,14 +20,21 @@ function hideElement(element) {
 console.log('Hello World')
 
 let closeAllApps = document.getElementById('Homes')
+let services = document.getElementById('Services')
 
 function toggleNav(){
   if(closeAllApps.classList.contains('hidden')){
     closeAllApps.classList.add('block')
     closeAllApps.classList.remove('hidden')
+
+    services.classList.add('block')
+    services.classList.remove('hidden')
   }else{
     closeAllApps.classList.add('hidden')
     closeAllApps.classList.remove('block')
+
+    services.classList.add('hidden')
+    services.classList.remove('block')
   }
 }
 
