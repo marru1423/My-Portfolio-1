@@ -27,14 +27,9 @@ function toggleNav(){
     closeAllApps.classList.add('block')
     closeAllApps.classList.remove('hidden')
 
-    services.classList.add('block')
-    services.classList.remove('hidden')
   }else{
     closeAllApps.classList.add('hidden')
     closeAllApps.classList.remove('block')
-
-    services.classList.add('hidden')
-    services.classList.remove('block')
   }
 }
 
