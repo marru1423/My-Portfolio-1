@@ -11,9 +11,9 @@ function toggleNav() {
 }
 console.log(openNav)
 
-let homesButton = document.getElementById('Homes')
+let homesButton = document.getElementById('myHeader')
 
-  function homesOnClick(){
+  function ServicesOnClick(){
     if(homesButton.classList.contains('hidden')){
         homesButton.classList.add('block')
         homesButton.classList.remove('hidden')
