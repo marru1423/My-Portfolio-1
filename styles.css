@@ -41,7 +41,7 @@ body {
     padding: 2rem 6rem;
     background-color: rgb(255, 253, 253);
     width: 100%;
-    position: fixed;
+    position: absolute;
     text-align: center;
     z-index: 1;
     top: 0;
