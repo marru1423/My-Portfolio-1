@@ -1,16 +1,21 @@
 
-// let closeAllApps = document.getElementById('Homes')
-// let services = document.getElementById('Services')
+let closeAllApps = document.getElementById('Homes')
+let services = document.getElementById('Services')
 const openNav = document.getElementById('myHeader')
 
 function toggleNav(){
   if(openNav.classList.contains('hidden')){
     openNav.classList.add('block')
     openNav.classList.remove('hidden')
-
+    
+    services.classList.add('block')
+    services.classList.add('hidden')
   }else{
     openNav.classList.add('hidden')
     openNav.classList.remove('block')
+    
+    services.classList.add('hidden')
+    services.classList.add('block')
   }
 }
 console.log(openNav)
