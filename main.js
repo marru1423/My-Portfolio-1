@@ -19,19 +19,19 @@ function hideElement(element) {
 }
 console.log('Hello World')
 
-let closeAllApps = document.getElementById('Homes')
-let services = document.getElementById('Services')
+// let closeAllApps = document.getElementById('Homes')
+// let services = document.getElementById('Services')
 
-function toggleNav(){
-  if(closeAllApps.classList.contains('hidden')){
-    closeAllApps.classList.add('block')
-    closeAllApps.classList.remove('hidden')
+// function toggleNav(){
+//   if(closeAllApps.classList.contains('hidden')){
+//     closeAllApps.classList.add('block')
+//     closeAllApps.classList.remove('hidden')
 
-  }else{
-    closeAllApps.classList.add('hidden')
-    closeAllApps.classList.remove('block')
-  }
-}
+//   }else{
+//     closeAllApps.classList.add('hidden')
+//     closeAllApps.classList.remove('block')
+//   }
+// }
 
 const scr = document.getElementById('scrl')
 
