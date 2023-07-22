@@ -19,6 +19,7 @@ body {
     color: #9ecf0a;
     background-color: #d20b0b;
     visibility: visible;
+    border-radius: 1rem;
 }
 
 .hidden {
