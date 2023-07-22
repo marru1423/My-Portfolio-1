@@ -11,6 +11,18 @@ function toggleNav() {
 }
 console.log(openNav)
 
+let homesButton = document.getElementById('Homes')
+
+  function HomesOnClick(){
+    if(homesButton.classList.contains('hidden')){
+        homesButton.classList.add('block')
+        homesButton.classList.remove('hidden')
+    }else{
+        homesButton.classList.add('hidden')
+        homesButton.classList.remove('block')
+    }
+  }
+console.log(homesButton)
 
 const scr = document.getElementById('scrl')
 
