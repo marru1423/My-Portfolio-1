@@ -59,7 +59,7 @@ a {
     color: #000;
     outline: none;
 }
-.head-style li:hover{
+.head-style li:hover, .head-style li:focus{
     color: #FDBD01;
 }
 .head-style h1 {
@@ -219,7 +219,6 @@ a {
 .sec-wrapper {
     padding-top: 7rem;
     text-align: center;
-    z-index: 1;
 }
 
 .shape {
@@ -283,7 +282,8 @@ a {
     margin: 0;
     background: rgba(38, 34, 34, 0.9);
     z-index: -1;
-
+    position: absolute;
+    width: 100%;
 }
 
 .sec-wrapper p:hover {
