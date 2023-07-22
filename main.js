@@ -13,7 +13,7 @@ console.log(openNav)
 
 let homesButton = document.getElementById('myHeader')
 
-  function HomesOnClick(){
+  function homesOnClick(){
     if(homesButton.classList.contains('hidden')){
         homesButton.classList.add('block')
         homesButton.classList.remove('hidden')
