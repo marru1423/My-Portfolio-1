@@ -110,7 +110,7 @@ a {
 .searchbar-header {
     margin: 0;
     padding: 0.3rem;
-    width: 95%;
+    width: 50%;
     position: relative;
 }
 
@@ -170,6 +170,7 @@ a {
     .searchbar-header {
         background-color: rgba(255, 253, 253, 0.9);
         color: black;
+        width: 100%;
     }
 
     /* section wrapper */
