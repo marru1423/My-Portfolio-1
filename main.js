@@ -103,7 +103,8 @@ function pictShows() {
 console.log(pads)
 
 let warn = 'Ooopss! Sorry this time the site that you want to see is Maintenance!'
-
 function warNing() {
   alert(warn)
+  window.open('https://www.google.com')
 }
+
