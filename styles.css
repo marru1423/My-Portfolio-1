@@ -141,9 +141,9 @@ a {
     background: none;
     border: none;
     background-color: rgba(230, 32, 32, 1);
-    padding: 1rem;
+    padding: 0.7rem;
     transition: all 1s ease-in-out;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     box-shadow: 0.5rem 0.4rem 0.8rem 0.5rem rgba(0, 0, 0, 0.8);
 }
 
